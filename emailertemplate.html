@@ -6,6 +6,7 @@
         <title>Macro Air</title>       
         <meta name="viewport" content="width=device-width, initial scale=1">
         <style>
+          
             .center {
          display: block;
             margin-left: auto;
@@ -71,13 +72,43 @@ column2 {
   
 }
 
-.coltext {
+/** .coltext1 {
   flex-basis: 30%;
   border-right: 1px solid #000;
   flex: 1;
   padding: 0.5em;
+  
+}
+.coltext2 {
+  flex-basis: 30%;
+  
+  flex: 1;
+  padding: 0.5em;
+  
+}
+*/
+ 
+
+
+
+.rowdiv div {
+  flex-basis: 25%;
+  text-align: center;
+  border-right: 1px solid #000;
 }
 
+.rowdiv span {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 34px;
+  font-size: 24px;
+  color: #000;
+}
+
+.rowdiv p {
+  font-size: 16px;
+  color: #000;
+}
 
 .linetr{
     width:200px; 
@@ -96,6 +127,13 @@ column2 {
   left: 50%;            
   margin-left: -3px;
   top: 0;
+}
+table tr td {
+  border-right: 1px solid black;
+  
+}
+table tr td:last-child {
+  border: none;
 }
         </style>
     </head>
@@ -125,36 +163,42 @@ First and foremost, we want to assure you that MacroAir Fans is taking this situ
             <h3 style="color:blue">Present Situation:</h3>
             
             <div class=rowdiv" > 
-                <div  class="coltext">
-                <strong> All manufacturing continues to operate at normal levels. </strong> 
+                <!--<div  class="coltext1">
+                <p>
+                 <span style="font-weight: bold;">
+                All manufacturing continues to operate at normal levels.  
+              </span>
                 <br>
                 There have been no reported cases of the Coronavirus within our organization, and we are taking an aggressive approach with health management precautions in our facilities. In parallel, we are preparing an additional inventory to ensure we continue to meet ongoing demand in the event a short-term production disruption would occur.
-                </div>
+              </p>  
+              </div>
                 
-                <div  class="coltext">
-                   <strong>All our suppliers and logistics partners continue to operate as usual. </strong> 
+                <div  class="coltext2">
+                   <p>
+                    <span style="font-weight: bold;">All our suppliers and logistics partners continue to operate as usual.</span>
+                    
                     <br>
                     Suppliers that incurred initial disruptions in China have since recovered to normal operating levels. We have not encountered any raw material supply issues and are not projecting any in the future at this time. To date, outbound customer shipments have not been impacted.
-                </div>
-                <!--<table>
+                  </p>
+                  </div> -->
+                <table>
                     <tr style="width:45%; vertical-align: top; float:left;" >
-                       <td>  All manufacturing continues to operate at normal levels. 
+                       <td> <strong>All manufacturing continues to operate at normal levels. </strong>
                         <br>
                         There have been no reported cases of the Coronavirus within our organization, and we are taking an aggressive approach with health management precautions in our facilities. In parallel, we are preparing an additional inventory to ensure we continue to meet ongoing demand in the event a short-term production disruption would occur.
                     </td>
-                    <div  class="v1">
-                        
-                    </div>
+             
  
                 </tr>
+
                    
                     <tr style="width: 45%; vertical-align: top; float: right ">
-                       <td> All our suppliers and logistics partners continue to operate as usual. 
+                       <td> <strong>All our suppliers and logistics partners continue to operate as usual</strong>
                         <br>
                         Suppliers that incurred initial disruptions in China have since recovered to normal operating levels. We have not encountered any raw material supply issues and are not projecting any in the future at this time. To date, outbound customer shipments have not been impacted.
                     </td>
                     </tr>
-                </table>-->
+                </table>
 
                 <div>
                   <br>
@@ -169,7 +213,7 @@ First and foremost, we want to assure you that MacroAir Fans is taking this situ
                   <a href="jpennycuff@macroairfans.com">jpennycuff@macroairfans.com</a> 
                   <br>
                   MacroAir
-                  <br>
+                  <br><br>
                   <img src="logo.png">
                   <br>
 
