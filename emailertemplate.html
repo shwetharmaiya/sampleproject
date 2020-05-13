@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Macro Air</title>       
+        <meta name="viewport" content="width=device-width, initial scale=1">
+        <style>
+            .center {
+         display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            }
+            .textindent {
+                padding-left: 30px; 
+                padding-right: 30px;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+          /**  column1 {
+  float: left;
+  width: 50%;
+  flex: 50%;
+
+}
+
+column2 {
+  float: left;
+  width: 50%;
+  flex: 50%;
+
+}
+
+**/
+
+/* Clear floats after the columns */
+/** .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+*/
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column1 {
+  flex: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+    width: 45%;
+    float: left;
+}
+.column2 {
+    vertical-align: middle;
+    display: table-cell;
+    width: 10%;
+    
+}
+.column3 {
+  flex: 50%;
+  padding: 10px;
+ 
+    float:right;
+    width: 45%;
+}
+
+.linetr{
+    width:200px; 
+            height:200px; 
+            position: fixed; 
+            
+            top: 50%; 
+            left: 50%; 
+            margin-top: -100px; 
+            margin-left: -100px; 
+}
+.vl {
+  border-left: 6px solid green;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+        </style>
+    </head>
+<body>
+    <header id="mainheader">
+        <nav style="justify-content: right"> 
+            
+        </nav>
+    </header>
+    <div class="container">
+        <div>
+            <img src="Masthead.png" alt="MacroAir Fans" title="" class="center" style="max-height: auto;" width="650" height="auto" justify-content="center">
+        </div>
+        <div style="width:550px; margin-left: auto; margin-right: auto;" class="textindent">
+            <br>
+            <b>Dear valued customer,</b> 
+            <br><br>
+            <b>Coronavirus (COVID-19) Update</b> 
+            <br><br>
+            We understand that there is a concern during these unprecedented times around health issues
+            leading to business continuity risk. In response, we want to provide you with information regarding
+             our strategy to mitigate these risks and protect our ability to receive products and services
+              rendered from you. 
+              <br><br>
+First and foremost, we want to assure you that MacroAir Fans is taking this situation very seriously. We have been monitoring and planning accordingly since the initial outbreak in China. 
+            <br><br>
+            <h3 style="color:blue">Present Situation:</h3>
+            
+            <div class=row" > 
+               <!-- <div  class="column1">
+                All manufacturing continues to operate at normal levels. 
+                <br>
+                There have been no reported cases of the Coronavirus within our organization, and we are taking an aggressive approach with health management precautions in our facilities. In parallel, we are preparing an additional inventory to ensure we continue to meet ongoing demand in the event a short-term production disruption would occur.
+                </div>
+                <div class="column2" >
+                    <img src="Line.png" alt="" title="" height="500px">       
+                </div>        
+                <div  class="column3">
+                    All our suppliers and logistics partners continue to operate as usual. 
+                    <br>
+                    Suppliers that incurred initial disruptions in China have since recovered to normal operating levels. We have not encountered any raw material supply issues and are not projecting any in the future at this time. To date, outbound customer shipments have not been impacted.
+                </div>-->
+                <table>
+                    <tr style="width:45%; vertical-align: top; float:left;" >
+                       <td>  All manufacturing continues to operate at normal levels. 
+                        <br>
+                        There have been no reported cases of the Coronavirus within our organization, and we are taking an aggressive approach with health management precautions in our facilities. In parallel, we are preparing an additional inventory to ensure we continue to meet ongoing demand in the event a short-term production disruption would occur.
+                    </td>
+                    </tr>
+                   
+                    <div  class="v1">
+                        
+                    </div>
+                    <tr style="width: 45%; vertical-align: top; float: right ">
+                       <td> All our suppliers and logistics partners continue to operate as usual. 
+                        <br>
+                        Suppliers that incurred initial disruptions in China have since recovered to normal operating levels. We have not encountered any raw material supply issues and are not projecting any in the future at this time. To date, outbound customer shipments have not been impacted.
+                    </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
