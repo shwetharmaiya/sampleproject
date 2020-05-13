@@ -40,16 +40,13 @@ column2 {
   clear: both;
 }
 */
-.row {
-  display: flex;
-}
 
 /* Create two equal columns that sits next to each other */
-.column1 {
+/*.column1 {
   flex: 50%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-    width: 45%;
+  height: 300px; 
+  width: 45%;
     float: left;
 }
 .column2 {
@@ -64,7 +61,23 @@ column2 {
  
     float:right;
     width: 45%;
+} */
+.rowdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
 }
+
+.coltext {
+  flex-basis: 30%;
+  border-right: 1px solid #000;
+  flex: 1;
+  padding: 0.5em;
+}
+
 
 .linetr{
     width:200px; 
@@ -77,10 +90,10 @@ column2 {
             margin-left: -100px; 
 }
 .vl {
-  border-left: 6px solid green;
+  border-left: 6px solid black;
   height: 500px;
   position: absolute;
-  left: 50%;
+  left: 50%;            
   margin-left: -3px;
   top: 0;
 }
@@ -94,7 +107,7 @@ column2 {
     </header>
     <div class="container">
         <div>
-            <img src="Masthead.png" alt="MacroAir Fans" title="" class="center" style="max-height: auto;" width="650" height="auto" justify-content="center">
+            <img src="masthead.png" alt="MacroAir Fans" title="" class="center" style="max-height: auto;" width="650" height="auto" justify-content="center">
         </div>
         <div style="width:550px; margin-left: auto; margin-right: auto;" class="textindent">
             <br>
@@ -111,38 +124,65 @@ First and foremost, we want to assure you that MacroAir Fans is taking this situ
             <br><br>
             <h3 style="color:blue">Present Situation:</h3>
             
-            <div class=row" > 
-               <!-- <div  class="column1">
-                All manufacturing continues to operate at normal levels. 
+            <div class=rowdiv" > 
+                <div  class="coltext">
+                <strong> All manufacturing continues to operate at normal levels. </strong> 
                 <br>
                 There have been no reported cases of the Coronavirus within our organization, and we are taking an aggressive approach with health management precautions in our facilities. In parallel, we are preparing an additional inventory to ensure we continue to meet ongoing demand in the event a short-term production disruption would occur.
                 </div>
-                <div class="column2" >
-                    <img src="Line.png" alt="" title="" height="500px">       
-                </div>        
-                <div  class="column3">
-                    All our suppliers and logistics partners continue to operate as usual. 
+                
+                <div  class="coltext">
+                   <strong>All our suppliers and logistics partners continue to operate as usual. </strong> 
                     <br>
                     Suppliers that incurred initial disruptions in China have since recovered to normal operating levels. We have not encountered any raw material supply issues and are not projecting any in the future at this time. To date, outbound customer shipments have not been impacted.
-                </div>-->
-                <table>
+                </div>
+                <!--<table>
                     <tr style="width:45%; vertical-align: top; float:left;" >
                        <td>  All manufacturing continues to operate at normal levels. 
                         <br>
                         There have been no reported cases of the Coronavirus within our organization, and we are taking an aggressive approach with health management precautions in our facilities. In parallel, we are preparing an additional inventory to ensure we continue to meet ongoing demand in the event a short-term production disruption would occur.
                     </td>
-                    </tr>
-                   
                     <div  class="v1">
                         
                     </div>
+ 
+                </tr>
+                   
                     <tr style="width: 45%; vertical-align: top; float: right ">
                        <td> All our suppliers and logistics partners continue to operate as usual. 
                         <br>
                         Suppliers that incurred initial disruptions in China have since recovered to normal operating levels. We have not encountered any raw material supply issues and are not projecting any in the future at this time. To date, outbound customer shipments have not been impacted.
                     </td>
                     </tr>
-                </table>
+                </table>-->
+
+                <div>
+                  <br>
+                   <b style="color:blue">Ongoing Precautions and Escalation plans: </b>
+                  <p>
+                  All our suppliers and logistics partners continue to operate as usual. Suppliers that incurred initial disruptions in China have since recovered to normal operating levels. We have not encountered any raw material supply issues and are not projecting any in the future at this time. To date, outbound customer shipments have not been impacted. 
+                  We have increased awareness of personal hygiene and cleaning processes in all our facilities and are requiring social distancing as a precaution. We have adopted notification systems that allow us to understand travel history and exposure risk within our employee population. We have tested our tools and IT network and verified the ability for critical resources to work from home successfully. We have implemented an employee/contractor/visitor screening process to prevent the risk of exposure. Next level containment measures have been prepared, and we are ready to implement these should it be deemed necessary. 
+                  </p>
+                  <p>MacroAir Fans does rely on our vendor relations to continue manufacturing at normal levels. As stated previously, at this time, we do not foresee any slowdown but will notify you of any variables that may arise keeping us from supplying MacroAir Fans as usual. </p>
+                  John Pennycuff 
+                  <br>
+                  <a href="jpennycuff@macroairfans.com">jpennycuff@macroairfans.com</a> 
+                  <br>
+                  MacroAir
+                  <br>
+                  <img src="logo.png">
+                  <br>
+
+                  <span style="text-align: left;"> 
+                  MacroAir Technologies, Inc.
+                  <br>
+                  794 South Allen Street, San Bernardino, CA 92408
+                  <br>
+                  </span>
+                  <a href="unsubscribe" style="color: blue;">Unsubscribe from all future emaits </span>
+                    <br><br>
+                    <img src="learnmore.png">
+                  </div>
             </div>
         </div>
     </div>
