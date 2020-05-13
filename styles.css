@@ -1,4 +1,3 @@
-
 .gitbutton { 
     top:-5px;
     height:65px;
@@ -10,7 +9,7 @@
     max-width:700px;
     padding:16px;
     font-size:20pt;
-    position:fixed;
+    position:absolute;
     z-index:1000;
     text-align:center;
     border-radius:5px;
@@ -28,6 +27,21 @@
     clear:both;
   }
 
+
+.imagecontainer { 
+  position: absolute;
+}
+
+#form-container{ 
+  display: flex;
+  justify-content: right;
+  background: url("https://macroairfans.com/wp-content/uploads/2017/07/170626_July_Promo_Homepage_Graphic-1.jpg") no-repeat center;
+  background-size: cover;
+  position: relative;
+  min-height: 400px;
+  padding: 24px;
+  
+}
 footer {
-    text-align: center;
+  text-align: center;
 }
