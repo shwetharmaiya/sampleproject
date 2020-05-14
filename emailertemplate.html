@@ -5,7 +5,27 @@
         <meta charset="utf-8">
         <title>Macro Air</title>       
         <meta name="viewport" content="width=device-width, initial scale=1">
-        <style>
+        <link rel = "stylesheet" type = "text/css" href = "media-query.css" />
+<style>
+        .mastheadcontainer::before { 
+      content: "masthead.png";
+      z-index : 20 ;
+    }
+    .mastheadcontainer::after { 
+  
+      background-size: 100%;
+      width: 1000px;
+      }
+  
+       footer  {
+  text-align: center;
+  color: black;
+  
+}
+footer a { 
+  text-decoration: none;
+}
+
           
             .center {
          display: block;
@@ -144,9 +164,11 @@ table tr td:last-child {
         </nav>
     </header>
     <div class="container">
-        <div>
+        <div class="mastheadcontainer">
             <img src="masthead.png" alt="MacroAir Fans" title="" class="center" style="max-height: auto;" width="650" height="auto" justify-content="center">
-        </div>
+ 
+           </div>
+
         <div style="width:550px; margin-left: auto; margin-right: auto;" class="textindent">
             <br>
             <b>Dear valued customer,</b> 
@@ -229,6 +251,13 @@ First and foremost, we want to assure you that MacroAir Fans is taking this situ
                   </div>
             </div>
         </div>
-    </div>
-</body>
+        <hr width="550px">
+        <footer>
+           <small>&copy; 1995 - 2020 MacroAir Technologies, Inc. All rights Reserved</small>
+              </footer>
+        
+      </div>
+      
+  </body>
+
 </html>
